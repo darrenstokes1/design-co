@@ -1,8 +1,86 @@
 html {
   text-size-adjust: 100%;
 }
+nav ul li {
+   display:inline-block;
+   align-content:center;
+}
+
+nav ul li a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    width: 80px;
+    font-size: 0.8em;
+    font-weight: bold;
+    background:#808080;
+    color:#0a0303;
+    text-align:center;
+
+}
+
+.nav-bar {
+    background-color:#e6d5d5;
+    
+}
+
+p {
+    text-align:center;
+}
+
+.section1 {
+    text-align:center;
+    color:#808080;
+}
+
+section {
+    flex-direction:column;
+}
+
+.image1 {
+    display:flex;
+   justify-content:center;
+    padding: 10px;
+
+}
+
+.image2 {
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+}
+
+.logo {
+    background-image: url('images/designco-logo.png');
+    text-align: left;
+}
+ul {
+    list-style-type:none;
+    justify-content: space-between;
+    align-items:center;
+    display:flex;
+}
+
+.new {
+    display:flex;
+    color:red;
+    padding: 5px;
+}
+
+.modern {
+    display:flex;
+    padding: 5px;
+}
+
+footer {
+    display:flex;
+    justify-content:space-between;
+}
+
+ 
 
 body {
-  margin: 0;
+  margin: auto;
+  width: 80%;
   font: 16px / 1 sans-serif;
 }
